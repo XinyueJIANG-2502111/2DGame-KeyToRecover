@@ -1,0 +1,43 @@
+# CMake and Ninja build outputs
+/build/
+/build-*/
+/cmake-build-*/
+/out/
+/CMakeFiles/
+/CMakeCache.txt
+/CMakeUserPresets.json
+/cmake_install.cmake
+/install_manifest.txt
+/compile_commands.json
+/build.ninja
+/rules.ninja
+/.ninja_deps
+/.ninja_log
+
+# Local copies of the DxLib SDK
+/deps/
+
+# Legacy Visual Studio project and local build outputs
+/.vs/
+/KeyToRecover.sln
+/KeyToRecover.vcxproj
+/KeyToRecover.vcxproj.filters
+/*.vcxproj.user
+/DxLib/
+/KeyToRecover/
+/Debug/
+/Release/
+/RelWithDebInfo/
+/MinSizeRel/
+/Win32/
+/x86/
+/x64/
+
+# Binaries, debug symbols, and game logs
+*.obj
+*.pdb
+*.ilk
+*.idb
+/KeyToRecover.exe
+/DxLib.exe
+/Log.txt
